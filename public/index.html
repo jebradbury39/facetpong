@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced Pong</title>
+        <link href="css/main.css" rel="stylesheet" />
+        
+        <script src="js\angular\angular.js"></script>
+        <script src="js\angular\angular-route.min.js"></script>
+        <script src="js\angular\angular-resource.min.js"></script>
+        <script src="js\angular\angular-animate.js"></script>
+        
+        <script src="socket.io-1.4.5.js"></script>
+        
+        <!-- Game Stuff -->
+        <script src="bundle.js"></script>
+        <script src="ui.js"></script>
+    </head>
+    <body ng-app="AdvancedPongApp">
+        <div id="alert"></div>
+        
+        <div ng-view></div>
+        
+        <!-- Modules -->
+        <script src="js/app.js"></script>
+
+        <!-- Controllers -->
+        <script src="js/controllers/HomeController.js"></script>
+        <script src="js/controllers/GamesRoomController.js"></script>
+        <script src="js/controllers/GameController.js"></script>
+        
+        
+    </body>
+</html>
